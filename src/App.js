@@ -5,6 +5,7 @@ import Home from './Home';
 import Nxtone from './Nxtsession';
 import Session from './Session';
 import Thirdsession from './Session3';
+import Fourth from './Session4';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Bottom />
     <Nxtone />
     <Thirdsession />
+    <Fourth />
    </div>
   
   );

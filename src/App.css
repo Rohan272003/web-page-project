@@ -170,7 +170,6 @@ button{
   color: white;
   font-size: 16px;
   padding: 10px;
-  /* font-weight: 400; */
   margin-right: 20px;
   margin-top: 15px;
   border: solid;
@@ -326,10 +325,11 @@ margin-left: 50px;
 
 }
 .image{
-  height: 640px;
+  height: 650px;
   width: 50%;
   float: right;
   /* border: solid; */
+  overflow: hidden;
 
 } 
 .column{
@@ -841,9 +841,70 @@ cursor: pointer;
   width: 35%;
 }
 /* ---------------------------- Session-4 ------------------------------- */
+.fourth1{
+  width: 100%;
+  height: 600px;
+}
+.fourth1-1{
+  border: solid;
+  font-size: 40px;
+  color: #0e2e50;
+  font-weight: 700;
+  width: 50%;
+  height: 60px;
+  margin-left: 95px;
+}
+.fourth1-2{
+  border: solid;
+  font: 14px;
+  color: #757474;
+  width: 40%;
+  height: 50px;
+  margin-left: 95px;
+  margin-top: 10px;
+  float: left;
+}
+.fourth1-3{
+  /* border: solid; */
+  /* padding: 10px; */
+  width: 25%;
+  height: 60px;
+  float: right;
+  margin-right: 80px;
+}
 
+.fourthbtn1{
+  width: 25%;
+  height: 35px;
+  border-width: 2px;
+  background-color: white;
+  color: #0e2e50;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
 
-
+.fourthbtn2{
+  width: 25%;
+  height: 35px;
+  border-width: 2px;
+  background-color: white;
+  color: #0e2e50;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.fourthbtn3{
+  width: 25%;
+  height: 35px;
+  border-width: 2px;
+  background-color: white;
+  color: #0e2e50;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.fourthbtn1,.fourthbtn2,.fourthbtn3 :hover{
+  color: #00B98E;
+  
+}
 
 
 
